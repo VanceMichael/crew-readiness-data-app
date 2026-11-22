@@ -1,0 +1,4 @@
+option,day,start,end,venue,skill,coach,eligible_people,capacity
+P1,8,08:00,09:30,A,radio,V1,V3|V4,1
+P2,8,09:00,10:15,B,entry,V1,V2|V5|V6,2
+P3,9,16:00,17:00,A,radio,V4,V1|V3,1

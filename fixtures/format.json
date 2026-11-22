@@ -1,0 +1,97 @@
+{
+  "tables": {
+    "people": [
+      "person",
+      "school",
+      "skill",
+      "credential_from",
+      "credential_to",
+      "standby"
+    ],
+    "observations": [
+      "event",
+      "person",
+      "skill",
+      "kind",
+      "scheduled_day",
+      "known_day",
+      "venue",
+      "supervision",
+      "outcome"
+    ],
+    "shifts": [
+      "shift",
+      "venue",
+      "day",
+      "start",
+      "end",
+      "skill",
+      "primary",
+      "backup",
+      "min_overlap",
+      "locked"
+    ],
+    "options": [
+      "option",
+      "day",
+      "start",
+      "end",
+      "venue",
+      "skill",
+      "coach",
+      "eligible_people",
+      "capacity"
+    ],
+    "change-notices": [
+      "notice",
+      "known_day",
+      "subject",
+      "kind",
+      "detail"
+    ],
+    "slot-rules": [
+      "venue",
+      "skill",
+      "min_credentialed",
+      "coach_authority"
+    ],
+    "availability": [
+      "person",
+      "day",
+      "from",
+      "to"
+    ]
+  },
+  "links": [
+    [
+      "observations",
+      "person",
+      "people",
+      "person"
+    ],
+    [
+      "shifts",
+      "primary",
+      "people",
+      "person"
+    ],
+    [
+      "shifts",
+      "backup",
+      "people",
+      "person"
+    ],
+    [
+      "options",
+      "coach",
+      "people",
+      "person"
+    ],
+    [
+      "availability",
+      "person",
+      "people",
+      "person"
+    ]
+  ]
+}

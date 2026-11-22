@@ -1,0 +1,4 @@
+notice,known_day,subject,kind,detail
+N1,5,O3,cancelled,场馆临时停用
+N2,7,F2,locked,场馆已收确认
+N3,12,O7,credential-effective,核发日十二号

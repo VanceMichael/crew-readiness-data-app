@@ -1,0 +1,5 @@
+shift,venue,day,start,end,skill,primary,backup,min_overlap,locked
+F1,A,10,09:00,11:15,radio,V3,V1,15,true
+F2,B,10,10:55,13:00,radio,V4,V1,15,true
+F3,A,10,11:00,13:00,radio,V1,V4,15,false
+F4,B,10,09:00,10:55,entry,V6,V5,0,false

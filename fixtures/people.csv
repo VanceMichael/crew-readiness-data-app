@@ -1,0 +1,7 @@
+person,school,skill,credential_from,credential_to,standby
+V1,H1,radio,1,20,true
+V2,H2,entry,1,11,false
+V3,H2,radio,12,25,false
+V4,H3,radio,1,25,true
+V5,H3,entry,2,20,false
+V6,H4,entry,,,false
