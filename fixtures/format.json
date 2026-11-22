@@ -60,6 +60,24 @@
       "day",
       "from",
       "to"
+    ],
+    "travel": [
+      "from",
+      "to",
+      "minutes"
+    ],
+    "training-conditions": [
+      "option",
+      "prerequisite",
+      "subject",
+      "required",
+      "known_day"
+    ],
+    "followup-shifts": [
+      "shift",
+      "depends_on",
+      "prior_issue",
+      "anticipated_day"
     ]
   },
   "links": [
@@ -92,6 +110,18 @@
       "person",
       "people",
       "person"
+    ],
+    [
+      "training-conditions",
+      "prerequisite",
+      "options",
+      "option"
+    ],
+    [
+      "training-conditions",
+      "option",
+      "options",
+      "option"
     ]
   ]
 }
